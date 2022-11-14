@@ -1,0 +1,35 @@
+About Dataset
+The Iris dataset was used in R.A. Fisher's classic 1936 paper, The Use of Multiple Measurements in Taxonomic Problems, and can also be found on the UCI Machine Learning Repository.
+It includes three iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other.
+The columns in this dataset are:
+•	Id
+•	SepalLengthCm
+•	SepalWidthCm
+•	PetalLengthCm
+•	PetalWidthCm
+•	Species
+ 
+During this project, 
+Data Exploratory:
+We are using Rstudio cloud, and we started to use some R code to check the dataset as follow
+-	Uploading the data set (Manually, Rcurl) then using readR code.
+-	Using of head (iris), Colname(), and Summary() to discover more about dataset.
+-	Using of 
+o	head(iris,5)
+o	tail(iris,4)
+to discover more about top or last 5 row based on code used.
+Data Visualization:
+	Here we start to visual some graphs for dataset by using:
+	Plot() 
+Scatter plot
+Histogram
+Feature plot:
+It requires to install 2 packages
+-	AppliedPredictiveModeling
+-	Caret
+
+Conclusion:
+Setosa has high value for Sepal width
+Setosa has the lower value for sepal length
+Virginica and versicolor have the same distribution for petal width and petal length as well as the higher value than setosa
+
